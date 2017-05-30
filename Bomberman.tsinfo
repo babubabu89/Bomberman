@@ -1,0 +1,318 @@
+treestructinfo "2.0" name "Game data"
+
+  node Common textures
+  
+    node Fire texture
+	  attr Path "Graphic\Fire.png"
+	  attr Animated "True"
+	end node
+	
+	node Bomb texture
+	  attr Path "Graphic\Bomb.png"
+	  attr Animated "True"
+	end node
+	
+	node Player texture
+	  attr Path "Graphic\Player.png"
+	  attr Animated "True"
+	end node
+	
+  end node
+  
+  node Map1
+  
+    node Round1
+	  attr Bonus Type ""
+	
+	  node Textures Information
+	    attr Textures Quantity "3"
+	  
+	    node Texture 1
+	      attr Path "Graphic\monster1.png"
+		  attr Animated "True"
+	    end node
+	  
+	    node Texture 2
+	      attr Path "Graphic\monster2.png"
+		  attr Animated "True"
+	    end node
+	  
+	    node Texture 3
+	      attr Path "Graphic\monster3.png"
+		  attr Animated "True"
+	    end node
+		
+		node Solid Wall
+		  attr Path "Graphic\SolidWall.png"
+		  attr Animated "True"
+		end node
+		
+		node Wall
+		  attr Path "Graphic\Wall.png"
+		  attr Animated "True"
+		end node
+		
+		node Ground
+		  attr Path "Graphic\Ground.png"
+		  attr Animated "True"
+		end node
+		
+		node Border
+		  attr Path "Graphic\Border.png"
+		  attr Animated "True"
+		end node
+		
+		node Corner
+		  attr Path "Graphic\Corner.png"
+		  attr Animated "True"
+		end node
+		
+		node Bonus
+		  attr Path "Graphic\Bonus.png"
+		  attr Animated "True"
+		end node
+	  end node
+	  
+	  node Monster Information
+	    attr Monsters Quantity "5"
+		
+	    node Monster 1
+	      attr Terxture ID "1"
+		  attr AI Type "basic"
+	    end node
+	  
+	    node Monster 2
+	      attr Terxture ID "2"
+		  attr AI Type "basic"
+	    end node
+	  
+	    node Monster 3
+	      attr Terxture ID "3"
+		  attr AI Type "basic"
+	    end node
+	  
+	    node Monster 4
+	      attr Terxture ID "2"
+		  attr AI Type "basic"
+	    end node
+	  
+	    node Monster 5
+	      attr Terxture ID "1"
+		  attr AI Type "basic"
+	    end node
+	  end node
+	  
+	end node
+	
+	node round2
+	  
+	end node
+	
+	node round3
+	  
+	end node
+	
+	node round4
+	  
+	end node
+	
+	node round5
+	  
+	end node
+	
+	node round6
+	  
+	end node
+	
+	node round7
+	  
+	end node
+	
+	node round8
+	  
+	end node
+	
+  end node
+  node map2
+    node round1
+	  
+	end node
+	node round2
+	  
+	end node
+	node round3
+	  
+	end node
+	node round4
+	  
+	end node
+	node round5
+	  
+	end node
+	node round6
+	  
+	end node
+	node round7
+	  
+	end node
+	node round8
+	  
+	end node
+  end node
+  node map3
+    node round1
+	  
+	end node
+	node round2
+	  
+	end node
+	node round3
+	  
+	end node
+	node round4
+	  
+	end node
+	node round5
+	  
+	end node
+	node round6
+	  
+	end node
+	node round7
+	  
+	end node
+	node round8
+	  
+	end node
+  end node
+  node map4
+    node round1
+	  
+	end node
+	node round2
+	  
+	end node
+	node round3
+	  
+	end node
+	node round4
+	  
+	end node
+	node round5
+	  
+	end node
+	node round6
+	  
+	end node
+	node round7
+	  
+	end node
+	node round8
+	  
+	end node
+  end node
+  node map5
+    node round1
+	  
+	end node
+	node round2
+	  
+	end node
+	node round3
+	  
+	end node
+	node round4
+	  
+	end node
+	node round5
+	  
+	end node
+	node round6
+	  
+	end node
+	node round7
+	  
+	end node
+	node round8
+	  
+	end node
+  end node
+  node map6
+    node round1
+	  
+	end node
+	node round2
+	  
+	end node
+	node round3
+	  
+	end node
+	node round4
+	  
+	end node
+	node round5
+	  
+	end node
+	node round6
+	  
+	end node
+	node round7
+	  
+	end node
+	node round8
+	  
+	end node
+  end node
+  node map7
+    node round1
+	  
+	end node
+	node round2
+	  
+	end node
+	node round3
+	  
+	end node
+	node round4
+	  
+	end node
+	node round5
+	  
+	end node
+	node round6
+	  
+	end node
+	node round7
+	  
+	end node
+	node round8
+	  
+	end node
+  end node
+  node map8
+    node round1
+	  
+	end node
+	node round2
+	  
+	end node
+	node round3
+	  
+	end node
+	node round4
+	  
+	end node
+	node round5
+	  
+	end node
+	node round6
+	  
+	end node
+	node round7
+	  
+	end node
+	node round8
+	  
+	end node
+  end node
+end tree
